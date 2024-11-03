@@ -1,6 +1,6 @@
 {
   "name": "simple-nfc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "simple nfc",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
