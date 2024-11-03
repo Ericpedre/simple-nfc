@@ -1,6 +1,9 @@
 # simple-nfc
 
-simple nfc
+Simple NFC is a capacitor library created to read plain text from an nfc tag.
+In this version it only has this functionality and it only works for android devices but little by little we will be adding other functions.
+It is a very simple code so you can modify it to your liking to create the functions you need in your application.
+Any contribution with the code will be welcome.
 
 ## Install
 
