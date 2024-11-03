@@ -19,10 +19,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://courses2-admin@bitbucket.org/courses2/simple-nfc.git.git"
+    "url": "git+https://github.com/Ericpedre/simple-nfc.git.git"
   },
   "bugs": {
-    "url": "https://courses2-admin@bitbucket.org/courses2/simple-nfc.git/issues"
+    "url": "https://github.com/Ericpedre/simple-nfc/issues"
   },
   "keywords": [
     "capacitor",
