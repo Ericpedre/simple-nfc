@@ -10,14 +10,14 @@ public class ExamplePlugin: CAPPlugin, CAPBridgedPlugin {
     public let identifier = "ExamplePlugin"
     public let jsName = "Example"
     public let pluginMethods: [CAPPluginMethod] = [
-        CAPPluginMethod(name: "echo", returnType: CAPPluginReturnPromise)
+        CAPPluginMethod(name: "readNfc", returnType: CAPPluginReturnPromise)
     ]
     private let implementation = Example()
 
-    @objc func echo(_ call: CAPPluginCall) {
+    @objc func readNfc(_ call: CAPPluginCall) {
         let value = call.getString("value") ?? ""
         call.resolve([
-            "value": implementation.echo(value)
+            "value": implementation.readNfc(value)
         ])
     }
 }

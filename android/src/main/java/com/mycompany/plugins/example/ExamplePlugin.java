@@ -22,7 +22,7 @@ import java.nio.charset.StandardCharsets;
 public class ExamplePlugin extends Plugin {
 
   @PluginMethod
-  public void echo(PluginCall call) {
+  public void readNfc(PluginCall call) {
     String value = call.getString("value");
 
     JSObject ret = new JSObject();
@@ -61,6 +61,7 @@ public class ExamplePlugin extends Plugin {
             Log.e("NFC", "Error communicating with NFC tag", e);
             ret.put("value", "Error communicating with NFC tag");
             call.resolve(ret);
+            return;
           }
         }
       }
